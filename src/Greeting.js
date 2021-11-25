@@ -26,6 +26,7 @@ const Greeting = () => {
         if (timer === 0) {
             setText("G'day")
         }
+        /*
         if (timer === timeStep) {
             setText("My name's Declan.")
         }
@@ -37,6 +38,10 @@ const Greeting = () => {
         }
         if (timer === timeStep * 4) {
             setText("Look what I've done so far.")
+        }
+        */
+        if (timer === timeStep) {
+            setText("This site is under construction")
         }
     }, [timer]);
 
