@@ -23,7 +23,8 @@ const Portfolio = () => {
                 justifyContent: "center",
                 backgroundColor: Colors.textBlack,
                 color:Colors.natural30,
-                zIndex: 1
+                zIndex: 1,
+                position:"relative"
             }}
         >
             <h2>hello</h2>
